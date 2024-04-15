@@ -14,7 +14,7 @@ password = conf['password']
 driver = webdriver.Chrome()
 
 #Opeaning website
-driver.get('https://ecm.smtech.in/ecm/')
+driver.get('url_of_website')
 
 #Finding username and password field in webpage 
 #and storing their id in local variables
